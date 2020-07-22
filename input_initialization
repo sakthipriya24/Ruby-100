@@ -1,0 +1,4 @@
+name = "i am priya"
+age = 21
+puts name
+puts age
