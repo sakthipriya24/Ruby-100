@@ -1,0 +1,24 @@
+year = gets.chomp.to_i
+
+=begin
+1)  if and or then returns boolean value if is true else returns value
+
+output
+2016
+=> true
+ 2017
+=> "not a leap year"
+
+2)  if or and then returns boolean value if is false else returns value
+
+output
+2016
+=> "leap year"
+ 2017
+=> false
+=end
+
+#first statement
+year% 4==0 and year% 100!=0 or year% 400==0 ? "leap year" : "not a leap year"
+#second statement
+year% 400==0 or year% 4==0 and year% 100!=0 ? "leap year" : "not a leap year"
