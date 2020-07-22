@@ -1,0 +1,6 @@
+num = gets.chomp 
+if num%2 == 0
+  puts "#{num} is an even number"
+elsif num%2 != 0
+  puts "#{num} is an odd number"
+end
