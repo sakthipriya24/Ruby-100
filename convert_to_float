@@ -1,0 +1,3 @@
+num = gets.to_f
+puts "#{num.class}"
+puts "#{num}"
