@@ -1,0 +1,4 @@
+name=gets
+age=gets 
+puts name
+puts age
