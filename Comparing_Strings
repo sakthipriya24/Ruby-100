@@ -1,0 +1,15 @@
+=begin
+With == operator : Returns true or false
+With eql? Operator : Returns true or false
+With casecmp method : Returns 0 if matched or 1 if not matched
+=end
+puts "Awesome" == "Awesome"   
+puts "Awesome" == "awesome"   
+puts "01" == "10"   
+  
+puts "i am".eql? "i am"   
+puts "10".eql? "10"   
+  
+puts "Ruby".casecmp "Ruby"   #0 --> true
+puts "Ruby".casecmp "ruby"   #1 --> false
+puts "Ruby".casecmp "rub"
