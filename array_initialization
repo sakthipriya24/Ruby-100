@@ -1,0 +1,4 @@
+x = ["sakthi", 21, "22-07-1999"]   
+for i in x do   
+  puts i   
+end
