@@ -1,0 +1,40 @@
+=begin
+There are different data types in Ruby:
+Numbers,Strings,Symbols,Hashes,Arrays,Booleans
+1)numbers:
+Fixnum	- 1
+Bignum -	111111111111
+Float	- 1.0
+Complex	- 1 + i
+Rational - 1/2
+BigDecimal - 1.1111111
+=end
+#based on numbers
+puts 1+2
+puts 1.0+2
+puts 1.0+2.0
+puts 1.0/2
+puts 1/2
+#based on Strings
+puts "sakthi"+"priya"
+puts 'sakthi'+'priya'
+puts "1"+"1"+"1"
+puts "1"*2
+#puts 2*"2"-->shows error
+#based on Strings
+puts :hello
+puts "#{:hello.class}"
+puts "sakthi".object_id #obj_id for string is different
+puts "priya".object_id
+puts :sakthi.object_id #obj_id for symbol is same
+puts :priya.object_id
+#based on Hashes
+data = {"priya" => 20, "aparna" => 21, "soniya" => 22}   
+puts data["priya"]   
+puts data["aparna"]   
+puts data["soniya"]  
+data = ["priya", "aparna", "soniya"]   
+puts data[0]   
+puts data[1]   
+puts data[2]  
+
