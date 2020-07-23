@@ -1,0 +1,14 @@
+i = 1   
+while true   
+    if i*5 >= 25 #this if part is no use of printing output  
+        break   
+    end   
+    puts i*5   
+    i += 1   
+end   
+for i in 5...11   
+   if i == 7 then   
+      next #skips the execution, if passed
+   end   
+   puts i   
+end  
