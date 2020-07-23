@@ -1,0 +1,8 @@
+msg = "I am Sakthi Priya"   
+puts msg["Sakthi"]   
+puts msg["Priya"]   
+puts msg[0]   
+puts msg[0, 4]   
+puts msg[0..4]   
+puts msg[0, msg.length]   
+puts msg[-7,3]
