@@ -1,0 +1,18 @@
+=begin
+concatenating strings into single string:
+1)Using plus sign in between strings.
+2)Using a single space in between strings.
+3)Using << sign in between strings.
+4)Using concat method in between strings.
+=end
+string = "This is Sakthi Priya" + " from Tuticorin"   
+puts string   
+
+string = "This is Sakthi Priya" " from Tuticorin"    
+puts string   
+  
+string = "This is Sakthi Priya" << " from Tuticorin" 
+puts string   
+  
+string = "This is Sakthi Priya".concat(" from Tuticorin")   
+puts string  
