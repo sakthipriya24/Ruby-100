@@ -1,0 +1,5 @@
+name = "Sakthi Priya"   
+course = "Computer Science Engineering"   
+college = "KGISL Institute of Technology"
+place = "Coimbatore"
+puts "I am #{name} and i'm currently pursuing #{course} at #{college} in #{place}." 
