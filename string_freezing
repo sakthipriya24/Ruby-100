@@ -1,0 +1,6 @@
+name = "I am"   
+name << " Sakthi "   
+name << "Priya"   
+puts name   
+name.freeze   
+#name << "can not modify the frozen string" 
