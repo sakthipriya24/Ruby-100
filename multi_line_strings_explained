@@ -1,0 +1,16 @@
+puts "   
+A   
+AB   
+ABC   
+ABCD" 
+puts %/   
+A   
+AB   
+ABC   
+ABCD/ 
+puts <<anyname  
+A   
+AB   
+ABC   
+ABCD   
+anyname
