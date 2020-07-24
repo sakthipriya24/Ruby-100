@@ -1,0 +1,4 @@
+#duplicate elements can be removed from an array. It returns the remaining array.
+days = ["Fri", "Sat", "Sun", "Sat"]     
+puts "#{days}"
+puts days.uniq 
