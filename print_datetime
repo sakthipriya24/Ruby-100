@@ -1,0 +1,2 @@
+require 'date'   
+puts DateTime.new(1999,7,22,5,6,7)   
