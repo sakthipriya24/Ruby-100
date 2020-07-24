@@ -1,0 +1,9 @@
+require 'matrix'
+m1 = Matrix[[1,2], [3,4]]
+print m1
+r1_c1=gets.chomp.to_i
+r1_c2=gets.chomp.to_i
+r2_c1=gets.chomp.to_i
+r2_c2=gets.chomp.to_i
+m2 = Matrix[[r1_c1,r1_c2], [r2_c1,r2_c2]]
+print m2
