@@ -1,0 +1,10 @@
+require "set"
+s1 = Set[2, 1] 
+puts s1 
+#Enters 4 into it 
+s1.add(4) 
+puts s1 
+#Enters 4 into it 
+#But set has already 4 
+s1.add(4) 
+puts s1
