@@ -1,0 +1,27 @@
+class Name 
+    def name 
+        puts "Sakthi"
+    end
+end
+# Using inheritance  
+class Name1 < Name
+    def name 
+        puts "Priya"
+    end
+end
+# Using inheritance  
+class Name2 < Name 
+    def name 
+        puts "Aparna"
+    end
+end
+# Creating object  
+n = Name.new
+n.name() 
+# Creating different object calling same function  
+n = Name1.new
+n.name() 
+# Creating different object calling same function  
+n = Name2.new
+n.name()
+
