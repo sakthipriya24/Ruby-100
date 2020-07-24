@@ -1,0 +1,4 @@
+array = [1, 2, 4, 2,5,7,9,7,9]
+puts array.count 
+puts array.count(2) 
+puts array.count { |x| x % 2 == 0 } 
