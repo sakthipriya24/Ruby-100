@@ -1,0 +1,4 @@
+n=gets.chomp.to_i
+arr = Array.new(n)   
+puts arr.size    
+puts arr.length 
