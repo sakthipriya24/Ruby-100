@@ -1,0 +1,30 @@
+# Super class or parent class 
+class Parent  
+    # constructor of super class 
+    def initialize    
+        puts "This constructor method is in Parent class"
+    end
+    # method of the superclass 
+    def parent_method 
+        puts "Method of Parent class"
+    end
+end
+# subclass or derived class  
+class Child < Parent  
+    # constructor of sub class 
+    def initialize  
+       puts "This constructor method is in Child class"
+    end
+    # method of the subclass 
+    def child_method 
+        puts "Method of Child class"
+    end
+end
+# creating object of superclass 
+Parent.new #calls the constructorof superclass
+# creating object of subclass 
+Child.new #calls the constructorof subclass
+#calls the constructor of subclass using sub class object 
+sub=Child.new
+sub.parent_method
+sub.child_method
