@@ -1,0 +1,6 @@
+puts "#{:language.to_s}"   
+puts "#{:language.class}"
+puts "#{(:language.to_s).class}"
+string = :first_name.to_s
+puts "#{string}"
+puts "#{string.class}"
