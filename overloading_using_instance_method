@@ -1,0 +1,21 @@
+class Test 
+    def display(*args) 
+        case args.size 
+            when 1
+                puts "1: Hello #{args[0]}"
+            when 2
+                puts "2: Hello #{args[0]} #{args[1]}"
+            when 3
+                puts "3: Hello #{args[0]} #{args[1]} #{args[2]}"
+        end
+    end
+end 
+  
+ob1 = Test.new
+ob2 = Test.new
+ob3 = Test.new
+puts "Overloading using Instance Method"
+  
+ob1.display"iam" 
+ob2.display"iam sakthi priya"
+ob3.display"iam sakthi priya chinnadurai"
