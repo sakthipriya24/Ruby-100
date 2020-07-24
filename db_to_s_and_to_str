@@ -1,0 +1,13 @@
+=begin
+to_s and to_str are very different.
+to_s is defined on most objects and returns a string representation of this object.
+Defining to_str on an object is very much like saying “this object behaves like a string”.
+Calling to_str should return a string-like object, not juste a representation of the object as a string.
+=end
+string="sakthi"
+string.to_s
+puts "#{string.class}"
+puts "#{(string.to_s).class}"
+string.to_str
+puts "#{string.class}"
+puts "#{(string.to_str).class}"
