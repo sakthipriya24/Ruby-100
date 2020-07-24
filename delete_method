@@ -1,0 +1,4 @@
+#items can be removed from anywhere in an array.
+days = ["Fri", "Sat", "Sun"]   
+puts days.delete("Sat")       
+puts "#{days}"
