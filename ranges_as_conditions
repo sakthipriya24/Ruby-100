@@ -1,0 +1,14 @@
+score = gets.chomp.to_i
+
+result = case score
+   when 0..40 then "U grade"
+   when 41..50 then "E grade"
+   when 51..60 then "D grade"
+   when 61..70 then "C grade"
+   when 71..80 then "B grade"
+   when 81..90 then "A grade"
+   when 91..100 then "S grade"
+   else "Invalid Score"
+end
+
+puts result
