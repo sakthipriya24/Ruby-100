@@ -1,0 +1,3 @@
+days = ["Fri", "Sat", "Sun"]   
+puts days.unshift("Today")  
+puts "#{days}" #elements can be added at the beginning of an array.
