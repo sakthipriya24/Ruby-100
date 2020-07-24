@@ -36,3 +36,4 @@ def printing(first_name="sakthipriya", last_name="chinnadurai")
 end
 
 printing
+printing("raji","rajan")
