@@ -1,0 +1,3 @@
+(10..20).step(3) do |n|   
+  puts n   #prints 10, 13, 16, 19
+end  
