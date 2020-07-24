@@ -1,0 +1,11 @@
+# class name   
+class Sample  
+    # constructor  
+    def initialize    
+        puts "Welcome Home :)"   
+    end   
+  
+end    
+  
+# Creating Object 
+Sample.new
