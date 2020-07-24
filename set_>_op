@@ -1,0 +1,6 @@
+require "set"
+s1 = Set[1, 2] 
+s2 = Set[1, 2, 3] 
+# > method used   
+puts s1 > s2 
+puts s2 > s1
