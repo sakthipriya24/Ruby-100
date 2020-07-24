@@ -1,0 +1,7 @@
+puts "#{25.to_s}"
+puts "#{(25.to_s).class}"                   # "25"
+puts "#{(25.5).to_s}"         
+puts "#{((25.5).to_s).class}"        # "25.5"
+puts "#{(["Sammy", "Shark"].to_s)}"
+puts "#{(["Sammy", "Shark"].to_s).class}"    
+# "[\"Sammy\", \"Shark\"]"
