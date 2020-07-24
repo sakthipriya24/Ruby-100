@@ -1,0 +1,13 @@
+print "What is the first number? "
+first_number = gets.chop #4
+
+print "What is the second number? "
+second_number = gets.chop #3
+
+# convert strings to numbers
+first_number = first_number.to_f
+second_number = second_number.to_f
+
+sum = first_number + second_number
+
+print sum #7.0
