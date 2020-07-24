@@ -1,0 +1,3 @@
+string = "SAKTHIPRIYA"
+string = string.gsub(" ","").downcase
+puts "#{string}"
