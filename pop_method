@@ -1,0 +1,5 @@
+#items can be removed from the end of an array.
+
+days = ["Fri", "Sat", "Sun"]   
+puts days.pop   
+puts "#{days}"
