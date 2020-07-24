@@ -1,0 +1,2 @@
+"dog".gsub(/\w+/) { |animal| animal == "dog" ? "cat" : "dog" }
+#w+ means one or more alphanumeric characters.
