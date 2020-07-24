@@ -1,0 +1,4 @@
+puts "i am "
+puts "sakthi"
+print "i am "
+print "sakthi" #print removes newline
