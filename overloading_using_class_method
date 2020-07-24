@@ -6,7 +6,7 @@ class Test
             when 2
                 puts "2: Hello #{args[0]} #{args[1]}"
             when 3
-                puts "3: Hello #{args[0]} #{args[1]} Welcome to #{args[2]} language."
+                puts "3: Hello #{args[0]} #{args[1]} #{args[2]} "
         end
     end
 end 
