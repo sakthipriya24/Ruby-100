@@ -1,0 +1,16 @@
+class Test 
+    def self.display(*args) 
+        case args.size 
+            when 1
+                puts "1: Hello #{args[0]}"
+            when 2
+                puts "2: Hello #{args[0]} #{args[1]}"
+            when 3
+                puts "3: Hello #{args[0]} #{args[1]} Welcome to #{args[2]} language."
+        end
+    end
+end 
+puts "Overloading using Class Method"
+Test.display"iam" 
+Test.display"iam sakthi priya"
+Test.display"iam sakthi priya chinnadurai"
