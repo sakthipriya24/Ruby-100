@@ -1,0 +1,6 @@
+def func(&anyname)
+  anyname.call   
+  puts "This is method"     
+  anyname.call 
+end   
+func { puts "This is block" }  
