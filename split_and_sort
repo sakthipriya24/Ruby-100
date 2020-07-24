@@ -1,0 +1,7 @@
+data = "sat,fri,sun,mon,tue,thu,wed"
+arr = data.split(",")
+puts "#{arr}"
+arr = arr.sort
+puts "#{arr}"
+arr.each{|arr| puts arr }
+puts "#{arr}"
