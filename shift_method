@@ -1,0 +1,5 @@
+#items can be removed from the start of an array. It returns the removed item.
+
+days = ["Fri", "Sat", "Sun"]   
+puts days.shift      
+puts "#{days}"
