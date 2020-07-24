@@ -1,0 +1,7 @@
+range1 = (1..10).to_a
+range2 = ('a'...'h').to_a
+range3 = ('baq'..'bat').to_a
+
+puts "#{range1}"
+puts "#{range2}"
+puts "#{range3}"
