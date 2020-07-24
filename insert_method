@@ -1,0 +1,3 @@
+days = ["Fri", "Sun" , "Mon"]   
+puts days.insert(1, "Sat") 
+puts "#{days}"
