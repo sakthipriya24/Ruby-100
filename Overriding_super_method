@@ -1,0 +1,19 @@
+# Overriding of Parent method  
+# parent class 
+class Parent 
+    # method of the superclass   
+    def super_method 
+        puts "This is Superclass Method" 
+  end      
+end 
+# child class    
+class Child < Parent  
+    # overriding the method of the superclass   
+    def super_method 
+        puts "super_method in superclass is Overrided by subclass" 
+  end 
+end 
+# creating object of sub class 
+obj = Child.new
+# calling the method 
+obj.super_method #prints the method in sub class only
