@@ -1,0 +1,8 @@
+class Class
+   def method
+      puts "Hello World!"
+   end
+end
+#to create objects
+object = Class. new
+object.method
