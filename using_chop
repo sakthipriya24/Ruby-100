@@ -1,0 +1,9 @@
+print "What is the first number? "
+first_number = gets.chop  #7
+
+print "What is the second number? "
+second_number = gets.chop #8
+
+sum = first_number + second_number
+
+print sum #prints 78
