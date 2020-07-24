@@ -1,0 +1,7 @@
+require "set"
+s1 = Set[1, 2, 4] 
+s2 = Set[1, 2, 3] 
+#& method used 
+s3 = s1 & s2 #does intersection
+#Prints the s3 
+puts s3 #Prints 1,2
