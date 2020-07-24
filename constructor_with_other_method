@@ -1,0 +1,23 @@
+ 
+class Sample 
+      
+    # constructor 
+    def initialize 
+          
+        # instance variable intialzation 
+        @ins1 = "iam"
+        @ins2 = "Sakthi Priya"
+    end
+      
+    # display method 
+    def display 
+        puts "Value of First instance variable is: #{@ins1}"
+        puts "Value of Second instance variable is: #{@ins2}"
+    end
+end
+  
+# creating object 
+obj1 = Sample.new() 
+  
+# calling display method 
+obj1.display() 
