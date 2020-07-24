@@ -1,0 +1,14 @@
+def me   
+   puts "sakthi"   
+   yield   #to call a block within a method with a value.
+   puts "priya"   
+   yield   
+end   
+me {puts "it's me!"}
+
+def iam   
+   yield 24   
+   puts "i am sakthipriya"   
+     
+end   
+iam {|i| puts "My roll no is #{i}"}   
