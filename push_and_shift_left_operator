@@ -1,4 +1,4 @@
 days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]   
 puts days.push("Today")   
 puts days << ("Tomorrow")   
-puts "#{days}"
+puts "#{days}" #elements can be added at the end of an array.
