@@ -1,0 +1,5 @@
+ x = "Outer variable"    
+    3.times do |x|    
+      puts "Inside the block: #{x}"  #here, x prints 0 to 2 the three values  
+    end    
+    puts "Outside the block: #{x}" # here, x prints outside variable  
