@@ -1,0 +1,3 @@
+string = "sakthipriya"
+string = string.gsub(" ","").upcase
+puts "#{string}"
