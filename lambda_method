@@ -1,0 +1,11 @@
+#lambda = lambda {}   or lambda = ->() {} 
+#lambda functions are anonymous functions 
+my_lambda_function = lambda { puts "Hello, Priya" } 
+# Different ways to call a lambda function 
+my_lambda_function.call 
+my_lambda_function.() 
+my_lambda_function.[] 
+my_lambda_function.=== 
+lambda_with_args = -> (s) { puts "Hello "+ s } 
+# Calling lambda function by passing arguments 
+lambda_with_args.call("Priya") 
