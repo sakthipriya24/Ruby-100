@@ -1,0 +1,8 @@
+require "matrix"
+#Initialize the vectors 
+vec1 = Vector[1, 2] #dimension must match
+vec2 = Vector[1, 4] 
+#prints the new vector 
+puts vec1 - vec2 
+puts vec1 + vec2
+puts vec1*vec2#error
