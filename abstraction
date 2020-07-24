@@ -1,0 +1,18 @@
+class Class  
+    # defining publicMethod  
+    public 
+    def publicMethod  
+        privateMethod 
+        puts "In Public!"
+        # calling privateMethod inside publicMethod  
+    end
+    # defining privateMethod  
+    private  
+    def privateMethod  
+        puts "In Private!"
+    end
+end
+# creating an object of class   
+obj = Class.new
+# calling the public method of class  
+obj.publicMethod 
