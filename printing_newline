@@ -1,0 +1,4 @@
+
+"sakthi\npriya".each_line do |line|   
+puts line #prints sakthi then priya in a new line.   
+end  
