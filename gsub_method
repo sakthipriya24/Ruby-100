@@ -1,0 +1,6 @@
+string = "sakthipriya"
+# replace underscore with a space and capitalize
+string = string.gsub("priya","durai").capitalize
+puts "#{string}"
+"a1".gsub(/\d/, "2") # prints "a2"
+"a1".gsub(/(\w)(\d)/, '\2\1') #prints "1a"
