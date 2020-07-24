@@ -1,0 +1,17 @@
+class Book   
+  attr_accessor :time, :title   
+=begin
+  attr_accessor is used to set data to an instance of an object  rather than having to set them on a separate line in your code each time you create a new instance of the class.
+=end
+  
+  def initialize   
+    yield(self)   
+  end   
+end   
+  
+book = Book.new do |n|   
+  n.time = "Quarantino"   
+  n.title = "To kill a mocking bird"   
+end   
+  
+puts "I have read #{book.title} book during this #{book.time}."   
