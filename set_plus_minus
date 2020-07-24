@@ -1,0 +1,9 @@
+require "set"
+s1 = Set[1, 2, 4] 
+s2 = Set[1, 2, 3] 
+s3 = s1 + s2 
+s4 = s1 - s2
+s5 = s2 - s1
+puts s3 
+puts s4
+puts s5
