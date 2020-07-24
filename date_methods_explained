@@ -1,0 +1,10 @@
+=begin
+The Date object is created with ::new, ::parse, ::today, ::jd, ::strptime, etc. All date objects are immutable, hence they can't modify themselves.
+=end
+require 'date'   
+  
+puts Date.new(1999,07,22)            
+puts Date.jd(2451382)                  
+puts Date.parse('1999-07-22')    
+puts Date.strptime('22-07-1999', '%d-%m-%Y')                   
+puts Time.new(1999,07,22).to_date 
