@@ -1,0 +1,7 @@
+"sakthipriya".each_byte do |c|
+    puts c
+end
+"SAKTHIPRIYA".each_byte do |c|
+    puts c
+end
+puts "#{"sakthipriya".ord}"
