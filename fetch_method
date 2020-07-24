@@ -1,0 +1,11 @@
+days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]   
+puts days.fetch(5) 
+puts days.size
+puts days[0]
+puts days[1]
+puts days[2]
+puts days[3]
+puts days[4]
+puts days[5]
+puts days[6]
+puts "#{days}"
