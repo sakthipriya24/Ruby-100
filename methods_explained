@@ -1,0 +1,38 @@
+
+def print_hello#function defintion without arguments
+  puts ("hello world")
+end
+
+print_hello#function call
+
+def sum(a,b)#function definition with arguments
+    sum = a + b;
+	return sum;
+end
+
+print sum(9, 7),"\n"#function call
+print sum(12, 10)
+
+def add(num1, num2 = 15)
+  num1 + num2
+end
+
+add(10)
+
+def add_numbers((n1, n2))
+  p n1: n1, n2: n2
+end
+
+add_numbers([10, 20])
+
+def sub(num1=20, num2 = 15)
+  num1 - num2
+end
+
+sub
+
+def printing(first_name="sakthipriya", last_name="chinnadurai")
+  puts "Your first name is #{first_name}. Your last name is #{last_name}."
+end
+
+printing
