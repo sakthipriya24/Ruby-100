@@ -1,0 +1,2 @@
+"first_name".to_sym   # :first_name i
+puts "#{("first_name".to_sym).class}"
