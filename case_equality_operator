@@ -1,0 +1,14 @@
+case "priya"
+when String
+  puts "It's a string!" #1st statement
+end
+case 24
+when Integer
+  puts "It's an integer" #2nd statement
+end
+#Ruby is calling the === method here.
+String === "priya" #prints 1st statement
+Integer === "priya" #prints nothing
+
+String === 24 #prints nothing
+Integer === 24 #prints 2nd statement
