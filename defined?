@@ -1,0 +1,14 @@
+radius = 2
+area = 3.14 * radius * radius 
+res1 = defined? radius 
+res2 = defined? height 
+res3 = defined? area 
+res4 = defined? 3.14
+res5 = defined? Math::PI
+  
+# Displaying results 
+puts "Result 1: #{res1}" #prints local variable
+puts "Result 2: #{res2}" #prints nothing
+puts "Result 3: #{res3}" #prints local_variable
+puts "Result 4: #{res4}" #prints expression
+puts "Result 5: #{res5}" #prints constant
