@@ -1,0 +1,2 @@
+arr = [24, 24.0, "priya", ]   
+puts arr 
